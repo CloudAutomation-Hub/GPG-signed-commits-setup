@@ -17,7 +17,7 @@ Download and install **GPG for Windows** from the official site.
 - Follow the installation prompts to install GPG.
 - After installation, verify that GPG is installed correctly by opening the **Command Prompt** and running:
 
-    ````sh
+    ```sh
     gpg --version
     ```
 
