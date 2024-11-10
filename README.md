@@ -1,2 +1,17 @@
-# GPG-signed-commits-setup
-This project provides a complete guide on configuring GPG for signing commits on Linux &amp; Windows. It walks through the setup of GPG keys, configuring Git to use these keys for commit signatures, and verifying signed commits on GitHub. This guide aims to improve code authenticity and security by ensuring commit authorship verification.
+# GPG Signed Commits Setup Guide
+
+## Introduction
+GPG Signed Commits are a way to verify the authenticity of commits in Git, ensuring the integrity of the code and proving that the commit was made by the rightful author.
+
+This guide will help you set up GPG signed commits for GitHub, whether you're using Linux, Windows, or WSL (Windows Subsystem for Linux).
+
+## Setup Guides
+- [Linux Setup (WSL)](docs/linux-setup.md)
+- [Windows Setup](docs/windows-setup.md)
+
+## Prerequisites
+- Git
+- GPG (GNU Privacy Guard)
+
+## Troubleshooting
+If you encounter any issues, check out the [Troubleshooting Guide](docs/troubleshooting.md).
