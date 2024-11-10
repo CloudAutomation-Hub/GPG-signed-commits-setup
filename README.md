@@ -8,10 +8,8 @@ This guide will help you set up GPG signed commits for GitHub, whether you're us
 ## Setup Guides
 - [Linux Setup (WSL)](docs/linux-setup.md)
 - [Windows Setup](docs/windows-setup.md)
+- [Running the Setup Script](docs/run-setup-script.md)
 
 ## Prerequisites
 - Git
 - GPG (GNU Privacy Guard)
-
-## Troubleshooting
-If you encounter any issues, check out the [Troubleshooting Guide](docs/troubleshooting.md).

@@ -126,3 +126,7 @@ If your commit does not show as "`Verified`" on GitHub, try the following:
 - **Q: How do I remove my GPG key from GitHub?** A: Go to GitHub's GPG settings and click the Delete button next to the key you wish to remove.
 
 - **Q: Can I use my GPG key across multiple computers?** A: Yes, as long as you export and import your GPG key on all your devices and configure Git to use the same key ID.
+
+---
+
+That's it! You've successfully set up GPG signed commits on Windows. Now your commits will be cryptographically signed, ensuring they’re verifiable and tamper-proof.
