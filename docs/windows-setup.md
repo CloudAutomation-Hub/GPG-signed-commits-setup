@@ -45,19 +45,19 @@ Now, you’ll need to create a GPG key pair that will be used for signing your c
 ### Step 4: List Your GPG Keys
 Once the key is created, you need to find the key ID to configure Git. Run the following command to list your keys:
 
-    ```sh
-    gpg --list-secret-keys --keyid-format LONG
-    ```
+```sh
+gpg --list-secret-keys --keyid-format LONG
+```
 
 You should see output similar to this:
 
-    ```sh
-    /Users/you/.gnupg/secring.gpg
-    ------------------------------
-    sec   4096R/<Your-Key-ID> 2019-09-12 [expires: 2024-09-12]
-    uid                          Your Name <youremail@example.com>
-    ssb   4096R/<Your-Subkey-ID> 2019-09-12
-    ```
+```sh
+/Users/you/.gnupg/secring.gpg
+------------------------------
+sec   4096R/<Your-Key-ID> 2019-09-12 [expires: 2024-09-12]
+uid                          Your Name <youremail@example.com>
+ssb   4096R/<Your-Subkey-ID> 2019-09-12
+```
 
 The long key ID is the value following `4096R/`. Copy the entire key ID (`<Your-Key-ID>`) to use in the next step.
 
