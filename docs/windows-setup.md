@@ -21,7 +21,7 @@ Download and install **GPG for Windows** from the official site.
     gpg --version
     ```
 
-    You should see the version of GPG installed on your system.
+You should see the version of GPG installed on your system.
 
 ### Step 3: Generate Your GPG Key
 Now, you’ll need to create a GPG key pair that will be used for signing your commits.
@@ -59,7 +59,7 @@ You should see output similar to this:
     ssb   4096R/<Your-Subkey-ID> 2019-09-12
     ```
 
-The long key ID is the value following 4096R/. Copy the entire key ID (<Your-Key-ID>) to use in the next step.
+The long key ID is the value following `4096R/`. Copy the entire key ID (`<Your-Key-ID>`) to use in the next step.
 
 ### Step 5: Configure Git to Use Your GPG Key
 Now that you have your GPG key, configure Git to use it for signing commits:
